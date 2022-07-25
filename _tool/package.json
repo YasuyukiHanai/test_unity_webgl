@@ -1,0 +1,56 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial of React",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --mode development --watch",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.16.7",
+    "@types/styled-components": "^5.1.25",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "browser-sync": "^2.27.9",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "browsersync-ssi": "^0.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "glob": "^8.0.2",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.13",
+    "postcss-loader": "^6.2.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "styled-components": "^5.3.5",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-remove-empty-scripts": "^0.8.0",
+    "css-loader": "^6.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsutomuNakamura/dojo.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Tsutomu Nakamura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsutomuNakamura/dojo/issues"
+  },
+  "homepage": "https://github.com/TsutomuNakamura/dojo#readme"
+}

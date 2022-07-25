@@ -1,0 +1,35 @@
+
+
+
+///* =====================================================================
+
+
+  //variable
+
+
+//===================================================================== */
+
+$siteWidth: 1000px;
+
+$breakPoint00: "only screen and (max-width:1440px)";
+$breakPoint01: "only screen and (max-width:1100px)";
+$breakPoint02: "only screen and (max-width:767px)";
+$breakPoint03: "only screen and (max-width:480px)";
+$breakPoint04: "only screen and (max-width:320px)";
+
+$marginL: 100px;
+$marginM: 60px;
+$marginS: 40px;
+
+$marginL-sp: 21.875%;
+$marginM-sp: 10%;
+$marginS-sp: 10%;
+
+
+$langSelect-en: "html:lang(en)";
+
+/*/////---example---//////
+    #{$langSelect-en} {
+      body {}
+    }
+*/

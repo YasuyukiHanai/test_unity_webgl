@@ -1,0 +1,44 @@
+@charset "utf-8";
+@use './_settings' as *;
+
+/* =====================================================================
+
+
+
+
+
+===================================================================== */
+
+
+.contents {
+  // font-family:'MyYuGothicM', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  // font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,  "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 游ゴシック体 Pr6N B, Yu Gothic Pr6N B, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  letter-spacing: .025em;
+  @media all and (-ms-high-contrast:none){
+     font-family: "Segoe UI", Meiryo, sans-serif;;
+  }
+}
+
+.font-en {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+.font-min,
+.font-mincho {
+  font-family: 游明朝体 Pr6N D, Yu Mincho Pr6N D, serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+.u-curning {
+  font-feature-settings: 'palt';
+}
+
+

@@ -1,0 +1,461 @@
+@charset "utf-8";
+@use "sass:math";
+
+@use "../tool" as *;
+@use "../base" as *;
+
+%img {
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+#float-pagetop {
+    display: none !important;
+}
+// @media #{$breakPoint01} {}
+// @media #{$breakPoint02} {}
+/* ---------------------
+  globalFooter
+--------------------- */
+
+.globalFooter {
+    position: relative;
+    line-height: 1;
+    @extend %img;
+    padding-top: 45px;
+}
+.globalFooter__inner {
+    overflow: hidden;
+    position: relative;
+    background: #3e3e3e;
+}
+.globalFooter__logo {
+    display: table;
+    text-align: center;
+    width: 180px;
+    margin: 55px auto 50px;
+    @media #{$breakPoint02} {
+        width: math.div(230%,7.65);
+        margin: 2em auto 1.5em;
+    }
+}
+.globalFooter__nav {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1280px;
+    padding: 0 math.div(30%,12.8);
+    margin: 0 auto 2em;
+}
+.globalFooter__nav__inner {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    @media #{$breakPoint02} {
+        position: relative;
+    }
+}
+.globalFooter__nav__lists {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: math.div(840%,11.8);
+    &+.globalFooter__nav__lists {
+        margin-top: .5em;
+        a {
+            min-width: 11.8em;
+        }
+    }
+    @media #{$breakPoint02} {
+        justify-content: center;
+        max-width: 100%;
+        &+.globalFooter__nav__lists {
+            flex-flow: column;
+            a {
+                min-width: 10em;
+            }
+        }
+    }
+}
+.globalFooter__nav__list {
+    margin: 0 1em 1em 0;
+    a {
+        display: inline-block;
+        text-decoration: none !important;
+        background: #fff;
+        font-size: $px23;
+        border: 3px solid #000;
+        border-top: none;
+        min-width: 9.5em;
+        padding: .2em .5em .3em;
+        transition: background .25s ease-in-out, color .25s ease-in-out, border .25s ease-in-out;
+        &:hover, &:active {
+            color: #fff;
+            border-color: #fff;
+            background: #3e3e3e;
+            svg {
+                fill: #fff;
+            }
+        }
+    }
+    span {
+        display: inline-block;
+        transform: translateY(.15em);
+        margin-right: .25em;
+        svg {
+            transition: fill .25s ease-in-out;
+        }
+    }
+    .icon-arrow {
+        display: inline-block;
+        width: 1.5em;
+        height: 1em;
+        fill: #000;
+    }
+    .icon-search {
+        display: inline-block;
+        width: 1.5em;
+        height: 1em;
+        fill: #000;
+    }
+    @media #{$breakPoint00} {
+        a {
+            @include vFontSize(1440, 766, 23, 18);
+        }
+    }
+    @media #{$breakPoint02} {
+        margin: 0 .35em .85em 0;
+        a {
+            min-width: 6em;
+            border-width: 2px;
+            padding: .15em .5em;
+            @include vFontSize(765, 325, 23, 14);
+        }
+        .icon-arrow, .icon-search {
+            width: 1.2em;
+            height: 1em;
+        }
+    }
+}
+.globalFooter__b {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-flow: row-reverse;
+    padding-top: 4.7em;
+    margin-top: -3.95em;
+    @media #{$breakPoint02} {
+        flex-flow: column;
+        padding-top: 3em;
+        margin-top: -3em;
+    }
+}
+.globalFooter__magazine {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+    width: math.div(580%,14.8);
+    padding: math.div(35vw,14.8) math.div(30%,7.65) 2.5em math.div(110%,14.8);
+    &:before {
+        content: "";
+        display: block;
+        background: var(--color-A);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: skewY(-12deg);
+        transform-origin: bottom right;
+    }
+    @media #{$breakPoint00} {
+        padding-top: 1.6em;
+    }
+    @media #{$breakPoint02} {
+        width: auto;
+        padding: math.div(70vw,7.65) math.div(65%,7.65) 2em;
+    }
+}
+.globalFooter__magazine__inner {
+    position: relative;
+    z-index: 1;
+    a {
+        &:hover, &:active {
+            .globalFooter__magazine__txt {
+                .dammy {
+                    opacity: 0;
+                }
+                .icon {
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    @media #{$breakPoint02} {
+        width: 100%;
+        a {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+.globalFooter__magazine__img {
+    margin-bottom: 1em;
+    @media #{$breakPoint02} {
+        width: math.div(165vw,6.35);
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+}
+.globalFooter__magazine__serif {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: -4em;
+    bottom: 0;
+    right: -1.5em;
+    width: 3em;
+    .inner {
+        position: absolute;
+        -ms-writing-mode: tb-rl;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        background: #fff;
+        color: #000;
+        border-radius: 50%;
+        border: 3px solid #000;
+        font-size: $px25;
+        padding: .5em 1.25em .35em;
+    }
+    .nbsp {
+        margin-top: 1.8em;
+    }
+    @media #{$breakPoint00} {
+        @include vFontSize(1440, 766, 25, 20);
+    }
+    @media #{$breakPoint02} {
+        top: -4em;
+        right: 2em;
+        width: 3em;
+        .inner {
+            border-width: 2px;
+            @include vFontSize(765, 325, 24, 12);
+        }
+    }
+}
+.globalFooter__magazine__txt {
+    position: relative;
+    font-size: $px20;
+    line-height: 1.4;
+    .marker, .dammy {
+        display: inline;
+        background: linear-gradient(transparent 1%, #fff 2%, #fff 99%, transparent 100%);
+        transition: background .15s;
+        padding: .1em 0;
+    }
+    .dammy {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        background: linear-gradient(transparent 0%, var(--color-A) 0%);
+        transition: opacity .15s;
+    }
+    .icon {
+        position: relative;
+        display: inline;
+        svg {
+            width: 1.5em;
+            height: .8em;
+        }
+    }
+    @media #{$breakPoint00} {
+        @include vFontSize(1440, 766, 20, 19);
+    }
+    @media #{$breakPoint02} {
+        width: math.div(460%,6.35);
+        margin: 0 0 -.5em math.div(30%,6.65);
+        @include vFontSize(765, 325, 26, 12);
+    }
+}
+.globalFooter__follow {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: math.div(905%,14);
+    margin-top: 8.08%;
+    padding: 6.8em 140px math.div(20%,14) 0;
+    &:before {
+        content: "";
+        display: block;
+        background: var(--color-B);
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: skewY(-12deg);
+        transform-origin: bottom right;
+    }
+    @media #{$breakPoint00} {
+        padding: 6.8em math.div(140%,14) math.div(20%,14) 0;
+    }
+    @media #{$breakPoint02} {
+        margin-top: 0;
+        width: auto;
+        padding: 1.5em math.div(65%,7.65) math.div(40vw,7.65);
+        &:before {
+            transform: skewY(0);
+        }
+    }
+}
+.globalFooter__follow__inner {
+    position: relative;
+    z-index: 1;
+}
+.globalFooter__follow__title {
+    width: math.div(540%,5.4);
+    max-width: 540px;
+    margin-bottom: math.div(60%,5.2);
+    @media #{$breakPoint02} {
+        width: math.div(540%,5.4);
+        margin-bottom: 0;
+    }
+}
+.globalFooter__follow__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 1em;
+    bottom: 1.5em;
+    @media #{$breakPoint02} {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        justify-content: center;
+    }
+}
+.globalFooter__follow__link {
+    margin: 0 22px;
+    a {
+        position: relative;
+        display: inline-block;
+        &:hover, &:active {
+            .icon {
+                opacity: .8;
+                // fill: #000;
+            }
+        }
+    }
+    .icon {
+        fill: #fff;
+        width: 50px;
+        height: 50px;
+        transition: opacity .25s ease-in-out;
+    }
+    @media #{$breakPoint02} {
+        margin: 0 .85em;
+        .icon {
+            max-width: 50px;
+            max-height: 50px;
+            width: math.div(70vw,7.65);
+            height: math.div(70vw,7.65);
+        }
+    }
+}
+.globalFooter__bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1280px;
+    line-height: 1;
+    text-align: right;
+    padding: 20px math.div(30%,12.8);
+    margin: 0 auto;
+    @media #{$breakPoint02} {
+        padding: 2em math.div(50%,7.65) 1.5em 1em;
+    }
+}
+.globalFooter__bar__txt {
+    color: #fff;
+    font-size: $px12;
+    padding: 0 1.5em;
+    margin-top: auto;
+    @media #{$breakPoint02} {
+        @include vFontSize(768, 320, 15, 9);
+        padding: 0 1.5em 0 0;
+    }
+}
+.globalFooter__bar__img {
+    display: flex;
+    span+span {
+        margin-left: 15px;
+    }
+    @media #{$breakPoint02} {
+        max-width: math.div(260%,7.65);
+        span+span {
+            margin-left: math.div(10%,1.5);
+        }
+    }
+}
+.globalFooter__scrollTop {
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 1480px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 0 math.div(35%,7.65);
+    margin: auto;
+    a {
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 5em;
+            height: 5em;
+            border: 3px solid #000;
+            background: #fff;
+            transform: rotate(45deg);
+            margin: 25% 8px -45%;
+            transition: background .25s ease-in-out, border .25s ease-in-out;
+        }
+        &:hover, &:active {
+            &:before {
+                border-color: #fff;
+                background: #3e3e3e;
+            }
+        }
+    }
+    @media #{$breakPoint02} {
+        top: 1.2em;
+        padding: 0 math.div(55%,7.65);
+        a {
+            &:before {
+                max-width: 4em;
+                max-height: 4em;
+                width: math.div(110vw,7.65);
+                height: math.div(110vw,7.65);
+                border-width: 2px;
+            }
+        }
+    }
+}

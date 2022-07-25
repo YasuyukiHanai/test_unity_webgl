@@ -1,0 +1,26 @@
+
+/* =====================================================================
+
+
+  
+
+
+===================================================================== */
+
+
+@use "sass:math";
+
+@mixin text-replace {  
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;  
+} 
+
+@mixin vFontSize($max: 1000, $min: 600, $fontMax: 18, $fontMin: 12) {
+  $val1 :(math.div($fontMin, 16) * 1rem);
+  $val2 :($fontMax - $fontMin);
+  $val3 : $max - $min;
+  font-size: #{$fontMin}px;
+  font-size:calc(#{$val1} + #{$val2} * (100vw - #{$min}px) / #{$val3});
+}//@include vFontSize(768, 320, 30, 22);
