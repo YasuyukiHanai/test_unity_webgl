@@ -1,0 +1,271 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.5, 0.5, 0.5 ],
+			"min": [ -0.5, -0.5, -0.5 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 288,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 192,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.9966581, 0.6528358 ],
+			"min": [ 0.004055766, 0.004055766 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0, 0, 1, 1 ],
+			"min": [ -1, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 36,
+			"max": [ 23 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 576,
+			"componentType": 5126,
+			"count": 190,
+			"max": [ 0.3155115, 0.1654629, 0.1407495 ],
+			"min": [ -0.3544624, -0.3855498, -0.08816767 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 2856,
+			"componentType": 5126,
+			"count": 190,
+			"max": [ 0.9477921, 0.9834274, 0.4016483 ],
+			"min": [ -0.9872361, -0.9744269, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 384,
+			"componentType": 5126,
+			"count": 190,
+			"max": [ 0.1538086, 0.3291016 ],
+			"min": [ 0.1444092, 0.3037109 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 1904,
+			"componentType": 5126,
+			"count": 190,
+			"max": [ 0.9897461, 0.9897842 ],
+			"min": [ 0.01021576, 0.01025391 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 384,
+			"componentType": 5126,
+			"count": 190,
+			"max": [ 1, 0, 0, 1 ],
+			"min": [ 1, 0, 0, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 72,
+			"componentType": 5123,
+			"count": 288,
+			"max": [ 189 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 12632,
+			"uri": "pumpkin001-2.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 648,
+			"target": 34963,
+			"byteOffset": 11984
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3424,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5136,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 3424
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3424,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 8560
+		}
+	],
+	"images": [
+		{
+			"uri": "T_PolygonFarm_01_A.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Default-Material"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Mat_PolygonFarm_01_A"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Cube_680collider (8)",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TEXCOORD_1": 3,
+						"TANGENT": 4
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_SM_Prop_Plant_Ground_01_M_1_18916SM_Prop_Plant_Ground_01_M_1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 6,
+						"NORMAL": 7,
+						"TEXCOORD_0": 8,
+						"TEXCOORD_1": 9,
+						"TANGENT": 10
+					},
+					"indices": 11,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_pumpkin001-2_-68538",
+			"children": [
+				2,
+				3
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_collider (8)_-68540",
+			"mesh": 0,
+			"scale": [ 0.01, 0.01, 0.01]
+		},
+		{
+			"name": "node_SM_Prop_Plant_Ground_01_M_1_-68962",
+			"mesh": 1,
+			"translation": [ 0, 0.105, 0],
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

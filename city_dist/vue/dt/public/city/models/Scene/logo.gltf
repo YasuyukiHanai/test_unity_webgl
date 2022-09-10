@@ -1,0 +1,278 @@
+{
+	"asset": {
+		"generator": "Unity 2021.3.8f1c1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4764,
+			"max": [ 1.6561, 12.83719, 12.95257 ],
+			"min": [ -0.253493, -12.83719, -12.95257 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 57168,
+			"componentType": 5126,
+			"count": 4764,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4764,
+			"max": [ 0.998008, 0.8096668 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4764,
+			"max": [ 1, 1, 1, 1 ],
+			"min": [ -1, -1, -0.9866405, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 12912,
+			"max": [ 4707 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 25824,
+			"componentType": 5123,
+			"count": 96,
+			"max": [ 4763 ],
+			"min": [ 4708 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 359,
+			"max": [ 11.93333 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 359,
+			"max": [ 0.1342621, 107.708, -0.201004 ],
+			"min": [ 0.1342621, 107.708, -0.201004 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 359,
+			"max": [ 1.596784E-18, 0, 1.596784E-18, 0.9998148 ],
+			"min": [ -8.489715E-17, -0.9999284, -8.489715E-17, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 4308,
+			"componentType": 5126,
+			"count": 359,
+			"max": [ 1, 1, 1 ],
+			"min": [ 1, 1, 1 ],
+			"type": "VEC3"
+		}
+	],
+	"animations": [
+		{
+			"name": "logo_motion_new",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 1,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 1,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 1,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 9
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 270484,
+			"uri": "logo.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 26016,
+			"target": 34963,
+			"byteOffset": 230108
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1436,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 38112,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 1436
+		},
+		{
+			"buffer": 0,
+			"byteLength": 114336,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 39548
+		},
+		{
+			"buffer": 0,
+			"byteLength": 76224,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 153884
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8616,
+			"byteStride": 12,
+			"byteOffset": 256124
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5744,
+			"byteStride": 16,
+			"byteOffset": 264740
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.9063317, 0.9063317, 0.9063317, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0.5, 0.5, 0.5],
+			"doubleSided": false,
+			"name": "svgBlinn1"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0, 0, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": ""
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_logo_38818logo_motion_new",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "node_logo_motion_new_23858",
+			"mesh": 0,
+			"translation": [ 0.1342621, 107.708, -0.201004]
+		},
+		{
+			"name": "node_logo_24188",
+			"children": [
+				1
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

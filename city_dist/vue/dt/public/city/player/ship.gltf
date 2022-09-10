@@ -1,0 +1,173 @@
+﻿{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 13702,
+			"max": [ 0.9476004, 0.3246557, 0.698348 ],
+			"min": [ -0.5006459, -0.4916057, -0.6595776 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 164424,
+			"componentType": 5126,
+			"count": 13702,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 13702,
+			"max": [ 0.9900906, 0.9968953 ],
+			"min": [ 0.004457957, 0.00230217 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 13702,
+			"max": [ 1, 1, 1, 1 ],
+			"min": [ -1, -1, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 66552,
+			"max": [ 13701 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 790800,
+			"uri": "ship.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 133104,
+			"target": 34963,
+			"byteOffset": 657696
+		},
+		{
+			"buffer": 0,
+			"byteLength": 109616,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 328848,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 109616
+		},
+		{
+			"buffer": 0,
+			"byteLength": 219232,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 438464
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/city/cityPlayer/ship/01.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [0.8, 0.8, 0.8, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": ""
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_ship_34972ship",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_ship_-20810",
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_ship_-20700",
+			"mesh": 0,
+			"translation": [ -0.193, 0.379, 0]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

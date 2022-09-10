@@ -1,0 +1,166 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1771,
+			"max": [ 24.02132, 9.579233, 24.48046 ],
+			"min": [ -23.911, -17.63393, -24.36687 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 21252,
+			"componentType": 5126,
+			"count": 1771,
+			"max": [ 0.9994801, 1, 0.9999843 ],
+			"min": [ -0.9996789, -0.9999403, -0.9994687 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1771,
+			"max": [ 0.7366518, 0.9212192 ],
+			"min": [ 0.5176932, 0.7049047 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1771,
+			"max": [ 0.8493924, 0.9999576, 0.9361754, 1 ],
+			"min": [ -0.9999417, -1, -0.999934, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 2100,
+			"max": [ 1770 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 89208,
+			"uri": "land001.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4200,
+			"target": 34963,
+			"byteOffset": 85008
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14168,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 42504,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 14168
+		},
+		{
+			"buffer": 0,
+			"byteLength": 28336,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 56672
+		}
+	],
+	"images": [
+		{
+			"uri": "Main Base.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [0.8, 0.8, 0.8, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Low Poly River Environment Material"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_M_Backyard_Base_27608land001",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_land001_-79130",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

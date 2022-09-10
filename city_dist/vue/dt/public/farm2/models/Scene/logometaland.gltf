@@ -1,0 +1,277 @@
+{
+	"asset": {
+		"generator": "Unity 2021.3.8f1c1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4234,
+			"max": [ 0.04686287, 0.03400137, 0.001473688 ],
+			"min": [ -0.04686287, -0.03400137, -0.001473688 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 50808,
+			"componentType": 5126,
+			"count": 4234,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4234,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4234,
+			"max": [ 1, 1, 0.04805271, 1 ],
+			"min": [ -1, -1, -0.1304179, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 9432,
+			"max": [ 3499 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 18864,
+			"componentType": 5123,
+			"count": 2148,
+			"max": [ 4233 ],
+			"min": [ 3500 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 11.96667 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 0, 0, 0 ],
+			"min": [ 0, 0, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 1.596784E-18, 0, 1.596784E-18, 0.9999287 ],
+			"min": [ -8.489715E-17, -0.9999284, -8.489715E-17, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 4320,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 1, 1, 1 ],
+			"min": [ 1, 1, 1 ],
+			"type": "VEC3"
+		}
+	],
+	"animations": [
+		{
+			"name": "logometaland",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 1,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 1,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 1,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 9
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 242232,
+			"uri": "Logometaland.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 23160,
+			"target": 34963,
+			"byteOffset": 204672
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 33872,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 1440
+		},
+		{
+			"buffer": 0,
+			"byteLength": 101616,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 35312
+		},
+		{
+			"buffer": 0,
+			"byteLength": 67744,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 136928
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8640,
+			"byteStride": 12,
+			"byteOffset": 227832
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5760,
+			"byteStride": 16,
+			"byteOffset": 236472
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.3133041, 0.3133041, 0.3133041, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": ""
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.9452768, 0.9452768, 0.9452768, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0.97, 0.97, 0.97],
+			"doubleSided": false,
+			"name": ".1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_metaland_242912logometaland",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "node_logometaland_-234630",
+			"mesh": 0
+		},
+		{
+			"name": "node_Logometaland_-260436",
+			"children": [
+				1
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}
