@@ -1,0 +1,193 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 4.929744, 3.772458, 1.040783E-08 ],
+			"min": [ -2.782733, -5.090127, -7.740274 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 47928,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 0.9986749, 0.999743, 0.9999855 ],
+			"min": [ -0.9992713, -0.9997235, -0.9999616 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 0.9907227, 0.8814087 ],
+			"min": [ 0.01220703, 0.01025391 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 31952,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 0.9931641, 0.9958458 ],
+			"min": [ 0.004154205, 0.004394531 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 63904,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 0.9785156, 0.9921875 ],
+			"min": [ 0.0078125, 0.008789063 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3994,
+			"max": [ 1, 0.9974846, 0.996454, 1 ],
+			"min": [ -0.9997426, -0.9974315, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 4524,
+			"max": [ 3993 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 264664,
+			"uri": "tree005.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 9048,
+			"target": 34963,
+			"byteOffset": 255616
+		},
+		{
+			"buffer": 0,
+			"byteLength": 95856,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 95856,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 95856
+		},
+		{
+			"buffer": 0,
+			"byteLength": 63904,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 191712
+		}
+	],
+	"images": [
+		{
+			"uri": "TropicalIsland01Diffuse.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [0.8, 0.8, 0.8, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "TropicalIsland01Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Palmtree04_27720Palmtree04",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TEXCOORD_1": 3,
+						"TEXCOORD_2": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_tree005_-189946",
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Palmtree04_-189462",
+			"mesh": 0,
+			"rotation": [0.7071068, 1.490116E-08, -1.490116E-08, 0.7071068]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

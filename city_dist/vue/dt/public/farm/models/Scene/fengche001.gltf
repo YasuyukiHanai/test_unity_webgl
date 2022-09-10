@@ -1,0 +1,471 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4790,
+			"max": [ -7.547278, -16.46618, 2.369712 ],
+			"min": [ -14.94464, -26.6695, -4.607944 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 57480,
+			"componentType": 5126,
+			"count": 4790,
+			"max": [ 0.999952, 1, 0.9998925 ],
+			"min": [ -0.9995438, -1, -0.9999492 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4790,
+			"max": [ 0.995874, 0.971111 ],
+			"min": [ 0.003906, 0.003906012 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4790,
+			"max": [ 0.9999069, 1, 0.9998918, 1 ],
+			"min": [ -0.9999492, -1, -0.9995498, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 16086,
+			"max": [ 3655 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 32172,
+			"componentType": 5123,
+			"count": 5328,
+			"max": [ 4789 ],
+			"min": [ 3656 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 11.96667 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 1.005556, 0.9226856, -0.1839955 ],
+			"min": [ 1.005556, 0.9226856, -0.1839955 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 0.9999284, 0, 8.397551E-17, 0.9999287 ],
+			"min": [ 0, -8.396949E-17, -8.396952E-17, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 4320,
+			"componentType": 5126,
+			"count": 360,
+			"max": [ 1, 1, 1 ],
+			"min": [ 1, 1, 1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 114960,
+			"componentType": 5126,
+			"count": 11414,
+			"max": [ 2.525182, 6.145007, 2.541955 ],
+			"min": [ -2.525182, -6.145007, -2.541955 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 251928,
+			"componentType": 5126,
+			"count": 11414,
+			"max": [ 0.9998591, 1, 0.999997 ],
+			"min": [ -0.9998597, -1, -0.9999983 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 38320,
+			"componentType": 5126,
+			"count": 11414,
+			"max": [ 0.996094, 0.994822 ],
+			"min": [ 0.003906, 0.003906012 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 76640,
+			"componentType": 5126,
+			"count": 11414,
+			"max": [ 0.9999983, 0.9994736, 0.9999745, 1 ],
+			"min": [ -0.9999985, -0.9984158, -0.9998764, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 42828,
+			"componentType": 5123,
+			"count": 26700,
+			"max": [ 6169 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 96228,
+			"componentType": 5123,
+			"count": 3780,
+			"max": [ 7215 ],
+			"min": [ 6170 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 103788,
+			"componentType": 5123,
+			"count": 2976,
+			"max": [ 7888 ],
+			"min": [ 7216 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 109740,
+			"componentType": 5123,
+			"count": 14688,
+			"max": [ 11161 ],
+			"min": [ 7889 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 139116,
+			"componentType": 5123,
+			"count": 1020,
+			"max": [ 11413 ],
+			"min": [ 11162 ],
+			"type": "SCALAR"
+		}
+	],
+	"animations": [
+		{
+			"name": "fengche",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 2,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 2,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 2,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 6,
+					"interpolation": "LINEAR",
+					"output": 9
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 934788,
+			"uri": "fengche001.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 141156,
+			"target": 34963,
+			"byteOffset": 779232
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 129632,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 1440
+		},
+		{
+			"buffer": 0,
+			"byteLength": 388896,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 131072
+		},
+		{
+			"buffer": 0,
+			"byteLength": 259264,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 519968
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8640,
+			"byteStride": 12,
+			"byteOffset": 920388
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5760,
+			"byteStride": 16,
+			"byteOffset": 929028
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 0.6, 0.21, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "dao1_________phong7SG1"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.13, 0.48, 0.45, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "dao1_________phong6SG1"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.6, 0.6, 0.6, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_Material #167"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 0.49, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "dao1_________phong8SG1"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.55, 0.3334375, 0.2035, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "dao1_________phong1SG1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_dao212_88002dao212",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_dao158_88004dao158",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 14,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 15,
+					"material": 2,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 16,
+					"material": 3,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 17,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 18,
+					"material": 4,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_fengche001_-73162",
+			"children": [
+				4
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node__3_2_-70454",
+			"children": [
+				3
+			],
+			"translation": [ 1.005556, 0.9226856, -0.1839955]
+		},
+		{
+			"name": "node_dao212_-70450",
+			"mesh": 0,
+			"translation": [ -6.986389, 21.7704, -8.888886],
+			"rotation": [-3.194234E-17, 0.9180719, -3.194234E-17, 0.3964139]
+		},
+		{
+			"name": "node_fengche_-70452",
+			"children": [
+				5,
+				2
+			],
+			"translation": [ 1.08, 6.08, -0.28]
+		},
+		{
+			"name": "node_dao158_-70448",
+			"mesh": 1,
+			"translation": [ -1.005556, -0.9226856, 0.1839955],
+			"rotation": [3.194234E-17, 0.9180719, 3.194234E-17, 0.3964139]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

@@ -1,0 +1,175 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3183,
+			"max": [ 0.1634293, 0.08144087, 0.1476201 ],
+			"min": [ -0.1456576, -0.08144232, -0.1514964 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 38196,
+			"componentType": 5126,
+			"count": 3183,
+			"max": [ 1, 1, 0.999915 ],
+			"min": [ -1, -0.9999962, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3183,
+			"max": [ 0.977668, 0.7297738 ],
+			"min": [ 0.1490302, 0.02249384 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3183,
+			"max": [ 1, 1, 1, 1 ],
+			"min": [ -0.9998695, -0.999575, -0.9999831, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 4845,
+			"max": [ 3182 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 162474,
+			"uri": "land004.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 9690,
+			"target": 34963,
+			"byteOffset": 152784
+		},
+		{
+			"buffer": 0,
+			"byteLength": 25464,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 76392,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 25464
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50928,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 101856
+		}
+	],
+	"images": [
+		{
+			"uri": "Main Base.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [0.8, 0.8, 0.8, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Low Poly River Environment Material"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_M_Cave_Land_27616land004",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "node_land004_-54264",
+			"mesh": 0,
+			"translation": [ -24.72074, -5.262347, -24.10472],
+			"scale": [ 100.0003, 100, 100.0002],
+			"rotation": [-0.02131087, 0.8751464, -0.005744468, -0.4833547]
+		},
+		{
+			"name": "node_land004_-258522",
+			"children": [
+				1
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
