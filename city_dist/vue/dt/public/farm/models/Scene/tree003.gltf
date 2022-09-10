@@ -1,0 +1,182 @@
+{
+	"asset": {
+		"generator": "Unity 2018.4.2f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1125,
+			"max": [ 0.7231659, 0.9939376, 0.5249295 ],
+			"min": [ -0.7231659, -0.9939376, -0.5249295 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 13500,
+			"componentType": 5126,
+			"count": 1125,
+			"max": [ 0.9990946, 0.9998066, 0.9998642 ],
+			"min": [ -0.9991874, -0.9997773, -0.9995847 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1125,
+			"max": [ 0.996571, 0.99267 ],
+			"min": [ 0.009648, 0.001847029 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1125,
+			"max": [ 0.9919164, 0.9991335, 0.9960026, 1 ],
+			"min": [ -0.9992014, -0.9949846, -0.9998069, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 834,
+			"max": [ 447 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 1668,
+			"componentType": 5123,
+			"count": 1470,
+			"max": [ 1124 ],
+			"min": [ 448 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 58608,
+			"uri": "tree003.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4608,
+			"target": 34963,
+			"byteOffset": 54000
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9000,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27000,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 9000
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18000,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 36000
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.4616296, 0.76, 0.01125926, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_Tree_6_HighSG1"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.31, 0.14, 0.07, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_Chicken_1SG1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh__Map_6Tree_4b__2__27582tree003",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "node_tree003_-170166",
+			"mesh": 0,
+			"translation": [ -0.195, 1.954, 0],
+			"scale": [ 1.98534, 1.98534, 1.98534],
+			"rotation": [2.331599E-17, 0, 4.251395E-17, 1]
+		},
+		{
+			"name": "node_tree003_-170826",
+			"children": [
+				1
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}
